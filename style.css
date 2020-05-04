@@ -16,7 +16,7 @@ body {
 .title {
     font-style: normal;
     font-weight: bold;
-    font-size: 64px;
+    font-size: 4rem;
     line-height: 75px;
     text-align: center;
     color: #FFFFFF;
@@ -27,14 +27,14 @@ body {
     margin: 36px auto 0px auto;
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5rem;
     line-height: 28px;
     color: #FFFFFF;
 }
 
 .para-1 {
     width: 80%;
-    margin: 164px auto 0px auto;
+    margin: 14% auto 0px auto;
     font-style: normal;
     font-weight: 500;
     font-size: 28px;
@@ -45,7 +45,7 @@ body {
 .footer {
     width: 100%;
     height: 144px;
-    background: #5D35FF;
+    background: #0029FF;
 }
 
 .buttons {
@@ -60,4 +60,40 @@ body {
     font-size: 16px;
     line-height: 28px;
     text-align: center;
+}
+
+
+@media (max-width: 768px) { 
+    html > body {
+        background-image: none;
+        background-color: #0029FF;
+    }
+
+    .title {
+        font-size: 3rem;
+    }
+
+    .tag {
+        font-size: 1.4rem;
+    }
+
+    .para-1 {
+        color: white;
+    }
+
+    .bi-arrow-right-short {
+        width: 30%;
+        transform: rotate(90deg);
+        fill: white;
+    }
+
+    .supported-text {
+        color: white;
+    }
+
+    .buttons {
+        width: 100%;
+        margin: 12px;
+        border:none;
+    }
 }
